@@ -1,0 +1,742 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2026-05-28 20:28+0300\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: Genehelp.py:111
+msgid "The token is available in your GeneHelp profile, Integrations tab."
+msgstr ""
+
+#: Genehelp.py:118 genehelp/country_combo.py:67 genehelp/ui_countries.py:129
+msgid "Recommended, but can be left empty"
+msgstr ""
+
+#: Genehelp.py:328
+msgid "Genealogy request created successfully"
+msgstr ""
+
+#: Genehelp.py:537
+msgid "Could not create the GeneHelp request."
+msgstr ""
+
+#: Genehelp.py:540
+msgid "Could not create the GeneHelp request. Please try again."
+msgstr ""
+
+#: Genehelp.py:542
+#, python-format
+msgid "%s %s"
+msgstr ""
+
+#: Genehelp.py:545
+#, python-format
+msgid "%s HTTP status: %s. %s"
+msgstr ""
+
+#: Genehelp.py:546
+#, python-format
+msgid "%s HTTP status: %s."
+msgstr ""
+
+#: Genehelp.py:550
+#, python-format
+msgid "%s Reason: %s"
+msgstr ""
+
+#: Genehelp.py:551
+#, python-format
+msgid "%s HTTP status: missing."
+msgstr ""
+
+#: Genehelp.py:563
+msgid "GeneHelp rejected the request."
+msgstr ""
+
+#: Genehelp.py:564
+msgid "GeneHelp could not process the request right now."
+msgstr ""
+
+#: Genehelp.py:565
+msgid "The GeneHelp integration token is invalid or revoked."
+msgstr ""
+
+#: Genehelp.py:566
+msgid "Add the GeneHelp integration token in the gramplet settings."
+msgstr ""
+
+#: Genehelp.py:567
+msgid "The GeneHelp account for this integration token is inactive or not verified."
+msgstr ""
+
+#: Genehelp.py:570
+msgid "This GeneHelp API endpoint does not support the request method."
+msgstr ""
+
+#: Genehelp.py:571
+msgid "The GeneHelp API endpoint was not found."
+msgstr ""
+
+#: Genehelp.py:572
+msgid "Too many requests were sent. Wait a moment and try again."
+msgstr ""
+
+#: Genehelp.py:574
+#, python-format
+msgid "Too many requests were sent. Wait %(minutes)s minute(s) and try again."
+msgstr ""
+
+#: Genehelp.py:573
+msgid "A GeneHelp upstream service is temporarily unavailable."
+msgstr ""
+
+#: Genehelp.py:574
+msgid ""
+"GeneHelp rejected the request data. Check the title, description, countries, "
+"and media file."
+msgstr ""
+
+#: Genehelp.gpr.py:18
+msgid "Send selected Gramps records to GeneHelp as an online request."
+msgstr ""
+
+#: genehelp/config.py:48
+msgid "Integration token"
+msgstr ""
+
+#: genehelp/config.py:49 genehelp/ui.py:682
+msgid "Request author's country"
+msgstr ""
+
+#: genehelp/country_utils.py:28
+msgid "I do not know"
+msgstr ""
+
+#: genehelp/themes.py:54 genehelp/themes.py:55
+msgid "Help identify who is in the photo"
+msgstr ""
+
+#: genehelp/themes.py:61 genehelp/themes.py:62
+msgid "What place is shown on this map? Help identify the exact coordinates"
+msgstr ""
+
+#: genehelp/themes.py:68 genehelp/themes.py:69
+msgid "Looking for a specialist to identify this seal"
+msgstr ""
+
+#: genehelp/themes.py:75 genehelp/themes.py:76
+msgid "Find out which family or institution this coat of arms belonged to"
+msgstr ""
+
+#: genehelp/themes.py:85 genehelp/themes.py:86
+msgid "Help verify this assumption"
+msgstr ""
+
+#: genehelp/themes.py:92 genehelp/themes.py:93
+msgid "I'm stuck. Help me move past a genealogy roadblock"
+msgstr ""
+
+#: genehelp/themes.py:99 genehelp/themes.py:100
+msgid "Looking for records that confirm or disprove a family legend"
+msgstr ""
+
+#: genehelp/themes.py:109
+msgid "A local researcher needs to visit the archive in person"
+msgstr ""
+
+#: genehelp/themes.py:110
+#, python-brace-format
+msgid "A local researcher needs to visit the archive in person: {name}"
+msgstr ""
+
+#: genehelp/themes.py:116
+msgid "A local researcher needs to request archive file digitization"
+msgstr ""
+
+#: genehelp/themes.py:117
+#, python-brace-format
+msgid "A local researcher needs to request archive file digitization: {name}"
+msgstr ""
+
+#: genehelp/themes.py:126 genehelp/themes.py:127
+msgid "Find the original document that confirms this citation"
+msgstr ""
+
+#: genehelp/themes.py:133 genehelp/themes.py:134
+msgid "Need an expert for an online consultation"
+msgstr ""
+
+#: genehelp/themes.py:143 genehelp/themes.py:144
+msgid "Looking for a local researcher who can digitize an archival file"
+msgstr ""
+
+#: genehelp/themes.py:150 genehelp/themes.py:151
+msgid "Need someone who can visit the cemetery and find the grave marker"
+msgstr ""
+
+#: genehelp/themes.py:160 genehelp/themes.py:161
+#, python-brace-format
+msgid "Find where to look for records for {name}"
+msgstr ""
+
+#: genehelp/themes.py:167 genehelp/themes.py:168
+#, python-brace-format
+msgid "Help prepare a list of archival files for researching {name}"
+msgstr ""
+
+#: genehelp/themes.py:177 genehelp/themes.py:178
+#, python-brace-format
+msgid "Find a document about the {event_type} event for {people}"
+msgstr ""
+
+#: genehelp/themes.py:184 genehelp/themes.py:185
+msgid "Verify the date or place of the event"
+msgstr ""
+
+#: genehelp/themes.py:194 genehelp/themes.py:195
+#, python-brace-format
+msgid "Find a marriage record for the family of {husband} and {wife}"
+msgstr ""
+
+#: genehelp/themes.py:201 genehelp/themes.py:202
+#, python-brace-format
+msgid "Help confirm the children in the {surname} family; records are missing"
+msgstr ""
+
+#: genehelp/themes.py:211 genehelp/themes.py:212
+#, python-brace-format
+msgid "Find birth record for {person}"
+msgstr ""
+
+#: genehelp/themes.py:218 genehelp/themes.py:219
+#, python-brace-format
+msgid "Find death record for {person}"
+msgstr ""
+
+#: genehelp/themes.py:225 genehelp/themes.py:226
+#, python-brace-format
+msgid "Cannot find where {person} came from"
+msgstr ""
+
+#: genehelp/ui.py:52
+#, python-format
+msgid ""
+"**GeneHelp** helps you find genealogy help — or offer help to others —\n"
+"with archives, documents, photos, places, research dead ends, and even "
+"complete\n"
+"family history research.\n"
+"\n"
+"## What this gramplet does\n"
+"\n"
+"The gramplet takes the current object from **Gramps** and helps you prepare "
+"a request for GeneHelp.\n"
+"\n"
+"Before sending, you can review and edit the request text.\n"
+"\n"
+"## What you can send\n"
+"\n"
+"Requests based on **media**, **notes**, **repositories**, **citations**, "
+"**sources**,\n"
+"**places**, **events**, **families**, and **people** pages are currently "
+"supported.\n"
+"\n"
+"For each page type, the gramplet inserts the matching request template.\n"
+"\n"
+"## Privacy\n"
+"\n"
+"**Data is not sent automatically.** The request is sent to GeneHelp only "
+"after your action.\n"
+"\n"
+"To send a request, you need a **GeneHelp integration token**, which you can "
+"generate in\n"
+"your user profile.\n"
+"\n"
+"[Open GeneHelp](%(base_url)s)\n"
+"\n"
+"[Generate an integration token](%(profile_url)s)\n"
+"\n"
+"[Privacy Policy](%(privacy_url)s)\n"
+msgstr ""
+
+#: genehelp/ui.py:582
+msgid "Send request WITH MEDIA to GeneHelp"
+msgstr ""
+
+#: genehelp/ui.py:584
+msgid "Send request to GeneHelp"
+msgstr ""
+
+#: genehelp/ui.py:673
+msgid "CREATE A GENEALOGY REQUEST IN GENEHELP"
+msgstr ""
+
+#: genehelp/ui.py:674
+msgid "Create as a test genealogy request"
+msgstr ""
+
+#: genehelp/ui.py:677
+msgid ""
+"Only you will see a test request. It does not participate in helper matching "
+"and will be automatically deleted after 7 days unless you make it a regular "
+"request in GeneHelp."
+msgstr ""
+
+#: genehelp/ui.py:683
+msgid "Helper needed in country"
+msgstr ""
+
+#: genehelp/ui.py:684
+msgid "Request title (edit if needed)"
+msgstr ""
+
+#: genehelp/ui.py:685
+msgid "Enter a genealogy request title"
+msgstr ""
+
+#: genehelp/ui.py:686
+msgid "Request description (edit if needed)"
+msgstr ""
+
+#: genehelp/ui.py:687
+msgid "Enter the genealogy request text"
+msgstr ""
+
+#: genehelp/ui.py:688
+msgid "MY HELP PROFILE"
+msgstr ""
+
+#: genehelp/ui.py:689
+msgid "Refresh"
+msgstr ""
+
+#: genehelp/ui.py:690
+msgid "Open profile"
+msgstr ""
+
+#: genehelp/ui.py:691
+msgid "MY GENEALOGY REQUESTS"
+msgstr ""
+
+#: genehelp/ui.py:694
+msgid "Some request topic templates"
+msgstr ""
+
+#: genehelp/ui.py:705
+msgid "Data loading error"
+msgstr ""
+
+#: genehelp/ui.py:707
+msgid "Try again"
+msgstr ""
+
+#: genehelp/ui.py:721
+msgid "Genealogy request"
+msgstr ""
+
+#: genehelp/ui.py:722
+msgid "My Help Profile"
+msgstr ""
+
+#: genehelp/ui.py:723
+msgid "My requests"
+msgstr ""
+
+#: genehelp/ui.py:724
+msgid "Info"
+msgstr ""
+
+#: genehelp/ui_countries.py:135
+msgid "No country"
+msgstr ""
+
+#: genehelp/ui_help_offer.py:173
+msgid "Helper country"
+msgstr ""
+
+#: genehelp/ui_help_offer.py:323 genehelp/ui_help_offer.py:387
+#: genehelp/ui_help_offer.py:410 genehelp/extractors/gramps_people.py:51
+msgid "Not specified"
+msgstr ""
+
+#: genehelp/ui_help_offer.py:366
+msgid "Help profile is not filled in yet"
+msgstr ""
+
+#: genehelp/ui_help_offer.py:395
+msgid "Whole country"
+msgstr ""
+
+#: genehelp/ui_help_offer.py:397
+msgid "Whole region"
+msgstr ""
+
+#: genehelp/ui_help_offer.py:399
+#, python-format
+msgid "Radius: %d km"
+msgstr ""
+
+#: genehelp/ui_help_offer.py:404
+msgid "Whole locality"
+msgstr ""
+
+#: genehelp/ui_help_offer.py:516
+#, python-format
+msgid "from %d"
+msgstr ""
+
+#: genehelp/ui_help_offer.py:518
+#, python-format
+msgid "until %d"
+msgstr ""
+
+#: genehelp/ui_requests.py:68
+msgid "Title"
+msgstr ""
+
+#: genehelp/ui_requests.py:76
+msgid "Status"
+msgstr ""
+
+#: genehelp/ui_requests.py:84
+msgid "Created"
+msgstr ""
+
+#: genehelp/ui_requests.py:150
+msgid "Draft"
+msgstr ""
+
+#: genehelp/ui_requests.py:151
+msgid "Pending"
+msgstr ""
+
+#: genehelp/ui_requests.py:152
+msgid "Open"
+msgstr ""
+
+#: genehelp/ui_requests.py:153
+msgid "New"
+msgstr ""
+
+#: genehelp/ui_requests.py:154
+msgid "Active"
+msgstr ""
+
+#: genehelp/ui_requests.py:155
+msgid "In progress"
+msgstr ""
+
+#: genehelp/ui_requests.py:156
+msgid "Assigned"
+msgstr ""
+
+#: genehelp/ui_requests.py:157
+msgid "Paused"
+msgstr ""
+
+#: genehelp/ui_requests.py:158
+msgid "Completed"
+msgstr ""
+
+#: genehelp/ui_requests.py:159
+msgid "Resolved"
+msgstr ""
+
+#: genehelp/ui_requests.py:160
+msgid "Closed"
+msgstr ""
+
+#: genehelp/ui_requests.py:161 genehelp/ui_requests.py:162
+msgid "Cancelled"
+msgstr ""
+
+#: genehelp/ui_requests.py:163
+msgid "Rejected"
+msgstr ""
+
+#: genehelp/ui_requests.py:164
+msgid "Expired"
+msgstr ""
+
+#: genehelp/ui_requests.py:179
+msgid "Test"
+msgstr ""
+
+#: genehelp/extractors/citation.py:68
+#, python-format
+msgid "Source title: %s"
+msgstr ""
+
+#: genehelp/extractors/citation.py:70
+#, python-format
+msgid "Source author: %s"
+msgstr ""
+
+#: genehelp/extractors/citation.py:77 genehelp/extractors/gramps_events.py:81
+#: genehelp/extractors/media.py:71
+#, python-format
+msgid "Date: %s"
+msgstr ""
+
+#: genehelp/extractors/citation.py:79
+#, python-format
+msgid "Volume/Page: %s"
+msgstr ""
+
+#: genehelp/extractors/citation.py:83
+msgid "Citation notes:"
+msgstr ""
+
+#: genehelp/extractors/citation.py:87
+msgid "Source notes:"
+msgstr ""
+
+#: genehelp/extractors/citation.py:90
+msgid "Citation attributes:"
+msgstr ""
+
+#: genehelp/extractors/citation.py:94 genehelp/extractors/source.py:72
+msgid "Source attributes:"
+msgstr ""
+
+#: genehelp/extractors/event.py:44
+msgid "event"
+msgstr ""
+
+#: genehelp/extractors/event.py:45
+msgid "selected people"
+msgstr ""
+
+#: genehelp/extractors/family.py:57
+msgid "husband"
+msgstr ""
+
+#: genehelp/extractors/family.py:58
+msgid "wife"
+msgstr ""
+
+#: genehelp/extractors/family.py:59
+msgid "family"
+msgstr ""
+
+#: genehelp/extractors/family.py:67
+msgid "Family events:"
+msgstr ""
+
+#: genehelp/extractors/family.py:68
+msgid "Husband:"
+msgstr ""
+
+#: genehelp/extractors/family.py:69
+msgid "Wife:"
+msgstr ""
+
+#: genehelp/extractors/family.py:77
+msgid "Children:"
+msgstr ""
+
+#: genehelp/extractors/family.py:80
+msgid "Family notes:"
+msgstr ""
+
+#: genehelp/extractors/family.py:83
+msgid "Family attributes:"
+msgstr ""
+
+#: genehelp/extractors/gramps_events.py:79
+#: genehelp/extractors/gramps_events.py:102
+#, python-format
+msgid "Event type: %s"
+msgstr ""
+
+#: genehelp/extractors/gramps_events.py:83
+#, python-format
+msgid "Description: %s"
+msgstr ""
+
+#: genehelp/extractors/gramps_events.py:85
+#, python-format
+msgid "Place: %s"
+msgstr ""
+
+#: genehelp/extractors/gramps_events.py:88
+#: genehelp/extractors/gramps_events.py:113 genehelp/extractors/media.py:80
+#: genehelp/extractors/place.py:68 genehelp/extractors/repository.py:74
+#: genehelp/extractors/source.py:74
+msgid "Notes:"
+msgstr ""
+
+#: genehelp/extractors/gramps_events.py:92
+#: genehelp/extractors/gramps_events.py:117
+msgid "Event attributes:"
+msgstr ""
+
+#: genehelp/extractors/gramps_events.py:105
+msgid "Date"
+msgstr ""
+
+#: genehelp/extractors/gramps_events.py:106
+msgid "Description"
+msgstr ""
+
+#: genehelp/extractors/gramps_events.py:107
+msgid "Place"
+msgstr ""
+
+#: genehelp/extractors/gramps_people.py:56 genehelp/extractors/repository.py:56
+#, python-format
+msgid "Name: %s"
+msgstr ""
+
+#: genehelp/extractors/gramps_people.py:60
+#, python-format
+msgid "Gramps ID: %s"
+msgstr ""
+
+#: genehelp/extractors/gramps_people.py:64
+#, python-format
+msgid "Gender: %s"
+msgstr ""
+
+#: genehelp/extractors/gramps_people.py:68
+#, python-format
+msgid "Birth: %s"
+msgstr ""
+
+#: genehelp/extractors/gramps_people.py:72
+#, python-format
+msgid "Death: %s"
+msgstr ""
+
+#: genehelp/extractors/gramps_people.py:74
+msgid "No basic person data found"
+msgstr ""
+
+#: genehelp/extractors/gramps_people.py:92
+msgid "Male"
+msgstr ""
+
+#: genehelp/extractors/gramps_people.py:93
+msgid "Female"
+msgstr ""
+
+#: genehelp/extractors/gramps_people.py:94
+msgid "Other"
+msgstr ""
+
+#: genehelp/extractors/gramps_people.py:95
+#: genehelp/extractors/gramps_people.py:97
+msgid "Unknown"
+msgstr ""
+
+#: genehelp/extractors/media.py:48
+msgid "The active media file was not found on disk."
+msgstr ""
+
+#: genehelp/extractors/media.py:51
+msgid "Only JPG, PNG, or WebP images are supported."
+msgstr ""
+
+#: genehelp/extractors/media.py:54
+msgid "The file cannot be larger than 3 MB."
+msgstr ""
+
+#: genehelp/extractors/media.py:79
+msgid "Document attributes:"
+msgstr ""
+
+#: genehelp/extractors/person.py:53
+msgid "selected person"
+msgstr ""
+
+#: genehelp/extractors/person.py:60
+msgid "Person:"
+msgstr ""
+
+#: genehelp/extractors/person.py:61
+msgid "Person events:"
+msgstr ""
+
+#: genehelp/extractors/person.py:69
+msgid "Partners:"
+msgstr ""
+
+#: genehelp/extractors/person.py:72
+msgid "Person attributes:"
+msgstr ""
+
+#: genehelp/extractors/person.py:75
+msgid "Person notes:"
+msgstr ""
+
+#: genehelp/extractors/place.py:53
+#, python-format
+msgid "Full place name: %s"
+msgstr ""
+
+#: genehelp/extractors/place.py:58
+#, python-format
+msgid "Coordinates: %s, %s"
+msgstr ""
+
+#: genehelp/extractors/place.py:59
+#, python-format
+msgid "Google Maps: %s"
+msgstr ""
+
+#: genehelp/extractors/place.py:67
+msgid "Alternative names:"
+msgstr ""
+
+#: genehelp/extractors/place.py:80
+msgid "locality"
+msgstr ""
+
+#: genehelp/extractors/repository.py:46
+msgid "archive"
+msgstr ""
+
+#: genehelp/extractors/repository.py:58
+#, python-format
+msgid "Type: %s"
+msgstr ""
+
+#: genehelp/extractors/repository.py:73
+msgid "Online records:"
+msgstr ""
+
+#: genehelp/extractors/source.py:57
+#, python-format
+msgid "Title: %s"
+msgstr ""
+
+#: genehelp/extractors/source.py:59
+#, python-format
+msgid "Author: %s"
+msgstr ""
+
+#: genehelp/extractors/source.py:61
+#, python-format
+msgid "Publication info: %s"
+msgstr ""
+
+#: genehelp/extractors/source.py:63
+#, python-format
+msgid "Abbreviation: %s"
+msgstr ""
+
+#: genehelp/extractors/source.py:73
+msgid "Repositories:"
+msgstr ""

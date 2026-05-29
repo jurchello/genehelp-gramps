@@ -1,0 +1,370 @@
+.genehelp-container,
+.genehelp-root {
+    background-color: #f3f4f6;
+}
+
+.genehelp-root viewport {
+    background: #f3f4f6;
+}
+
+.genehelp-scroll-frame {
+    background: #f3f4f6;
+    border: 0;
+    margin: 0;
+    outline: 0;
+    outline-offset: 0;
+    outline-style: none;
+    outline-width: 0;
+    padding: 0;
+    box-shadow: none;
+}
+
+.genehelp-scroll-frame.frame,
+scrolledwindow.genehelp-scroll-frame,
+scrolledwindow.genehelp-scroll-frame.frame {
+    border: 0;
+    box-shadow: none;
+    outline: 0;
+    outline-style: none;
+}
+
+.genehelp-scroll-frame border {
+    border: 0;
+    margin: 0;
+    padding: 0;
+    min-width: 0;
+    min-height: 0;
+}
+
+.genehelp-scroll-frame viewport,
+.genehelp-scroll-viewport {
+    background: #f3f4f6;
+    border: 0;
+    margin: 0;
+    outline: 0;
+    outline-style: none;
+    padding: 0;
+    box-shadow: none;
+}
+
+.genehelp-scroll-viewport.frame,
+viewport.genehelp-scroll-viewport,
+viewport.genehelp-scroll-viewport.frame {
+    border: 0;
+    box-shadow: none;
+    outline: 0;
+    outline-style: none;
+}
+
+.genehelp-scroll-frame:focus,
+.genehelp-scroll-frame:focus-within,
+.genehelp-scroll-frame viewport:focus,
+.genehelp-scroll-viewport:focus {
+    border: 0;
+    box-shadow: none;
+    outline: 0;
+    outline-style: none;
+}
+
+.genehelp-root undershoot,
+.genehelp-root overshoot {
+    background: none;
+}
+
+.genehelp-page-header {
+    margin-top: 12px;
+    margin-right: 10px;
+    margin-bottom: 16px;
+    margin-left: 10px;
+}
+
+.genehelp-page-title,
+.genehelp-title {
+    color: #18251f;
+    font-size: larger;
+    font-weight: 700;
+}
+
+.genehelp-page-title-rule {
+    background-color: #3b5b7a;
+    margin-top: 7px;
+    min-height: 2px;
+}
+
+.genehelp-section-title {
+    color: #283a32;
+    font-weight: 700;
+}
+
+.genehelp-field-group {
+    margin-bottom: 2px;
+}
+
+.genehelp-test-request-option {
+    color: #334155;
+    font-weight: 600;
+}
+
+.genehelp-card {
+    background: transparent;
+}
+
+.genehelp-primary-button {
+    background: #3b5b7a;
+    color: #ffffff;
+    font-weight: 400;
+    padding-left: 18px;
+    padding-right: 18px;
+}
+
+.genehelp-primary-button:hover {
+    background: #2f4a63;
+    color: #ffffff;
+}
+
+.genehelp-primary-button:disabled {
+    background: rgba(0, 0, 0, 0.08);
+    border-color: rgba(0, 0, 0, 0.08);
+    color: #6b7280;
+}
+
+.genehelp-primary-button:disabled:hover {
+    background: rgba(0, 0, 0, 0.08);
+    border-color: rgba(0, 0, 0, 0.08);
+    color: #6b7280;
+}
+
+.genehelp-field-label {
+    color: #283a32;
+    font-weight: 700;
+}
+
+.genehelp-theme-option {
+    color: #24322c;
+    font-weight: 400;
+}
+
+.genehelp-theme-option check {
+    min-width: 14px;
+    min-height: 14px;
+    border: 2px solid #6f7d75;
+    border-radius: 999px;
+    background: #ffffff;
+    box-shadow: inset 0 0 0 4px #ffffff;
+    -gtk-icon-source: none;
+}
+
+.genehelp-theme-option check:checked {
+    border: 2px solid #3b5b7a;
+    background: #3b5b7a;
+    box-shadow: inset 0 0 0 4px #ffffff;
+    -gtk-icon-source: none;
+}
+
+.genehelp-status {
+    color: #32443b;
+    background: #edf5f0;
+}
+
+.genehelp-text-area {
+    background: #ffffff;
+}
+
+.genehelp-text-area text {
+    background: #ffffff;
+}
+
+.genehelp-country-combo,
+.genehelp-country-combo entry {
+    background: #ffffff;
+}
+
+.genehelp-info-panel {
+    background: #f3f4f6;
+}
+
+.genehelp-info-panel text,
+.genehelp-info-panel viewport {
+    background: #f3f4f6;
+}
+
+.genehelp-data-error {
+    color: #283a32;
+    padding: 16px;
+}
+
+.genehelp-data-error-label {
+    color: #283a32;
+    font-weight: 700;
+}
+
+.genehelp-placeholder {
+    color: #7f8a84;
+}
+
+.genehelp-help-offer {
+    background: #f3f4f6;
+    color: #111827;
+}
+
+.genehelp-help-offer-header {
+    background: #ffffff;
+    border: 1px solid #e5e7eb;
+    border-radius: 8px;
+    box-shadow: 0 7px 18px rgba(59, 91, 122, 0.05);
+    margin-bottom: 16px;
+    padding: 12px;
+}
+
+.genehelp-help-offer-title {
+    color: #111827;
+    font-weight: 700;
+}
+
+.genehelp-outline-button {
+    background: transparent;
+    border: 1px solid #3b5b7a;
+    border-radius: 6px;
+    color: #3b5b7a;
+    padding: 5px 10px;
+}
+
+.genehelp-outline-button:hover {
+    background: rgba(59, 91, 122, 0.12);
+    color: #2f4a63;
+}
+
+.genehelp-help-offer-meta-chip {
+    background: rgba(59, 91, 122, 0.06);
+    border: 1px solid rgba(0, 0, 0, 0.08);
+    border-radius: 999px;
+    color: #111827;
+    font-weight: 400;
+    padding: 4px 8px;
+}
+
+.genehelp-show-section {
+    background: transparent;
+    border-top: 1px solid rgba(0, 0, 0, 0.08);
+    margin-top: 16px;
+    padding-top: 16px;
+}
+
+.genehelp-show-section:first-child {
+    border-top: 0;
+    margin-top: 0;
+    padding-top: 0;
+}
+
+.genehelp-help-offer-section-title {
+    color: #111827;
+    font-weight: 700;
+}
+
+.genehelp-help-offer-strong {
+    color: #111827;
+    font-weight: 700;
+}
+
+.genehelp-muted {
+    color: #6b7280;
+}
+
+.genehelp-public-channel-item {
+    padding-left: 4px;
+}
+
+.genehelp-public-channel-bullet {
+    color: #6b7280;
+}
+
+.genehelp-public-channel-title {
+    color: #111827;
+    font-weight: 400;
+}
+
+.genehelp-public-location-list {
+    background: transparent;
+}
+
+.genehelp-public-location-item {
+    padding-left: 4px;
+}
+
+.genehelp-public-location-bullet {
+    color: #6b7280;
+}
+
+.genehelp-public-location-title {
+    color: #111827;
+    font-weight: 400;
+}
+
+.genehelp-public-location-meta {
+    color: #6b7280;
+}
+
+.genehelp-historical-period-list {
+    background: transparent;
+}
+
+.genehelp-historical-period-item {
+    padding-left: 4px;
+}
+
+.genehelp-historical-period-bullet {
+    color: #6b7280;
+}
+
+.genehelp-historical-period-title {
+    color: #111827;
+    font-weight: 400;
+}
+
+.genehelp-historical-period-meta {
+    color: #6b7280;
+}
+
+.genehelp-help-offer-section-text {
+    color: #111827;
+    font-weight: 400;
+}
+
+.genehelp-tags {
+    background: transparent;
+}
+
+.genehelp-tag {
+    background: #ffffff;
+    border: 1px solid rgba(0, 0, 0, 0.08);
+    border-radius: 999px;
+    color: #111827;
+    font-weight: 400;
+    padding: 4px 8px;
+}
+
+.genehelp-empty-state {
+    background: linear-gradient(135deg, rgba(59, 91, 122, 0.06), transparent), #ffffff;
+    border: 1px dashed #e5e7eb;
+    border-radius: 8px;
+    padding: 12px;
+}
+
+#NotificationWindowSuccess {
+    background-color: #3f7f5c;
+    border-radius: 8px;
+}
+
+#NotificationWindowError {
+    background-color: #a8615a;
+    border-radius: 8px;
+}
+
+.genehelp-notification-content {
+    padding: 10px 12px;
+}
+
+.genehelp-notification-label {
+    color: #ffffff;
+    font-weight: 600;
+}
