@@ -1,0 +1,12 @@
+*
+!/.gitignore
+!/gramps60/
+!/gramps60/download/
+!/gramps60/download/Genehelp.addon.tgz
+!/gramps60/listings/
+!/gramps60/listings/addons-en.json
+!/gramps52/
+!/gramps52/download/
+!/gramps52/download/Genehelp.addon.tgz
+!/gramps52/listings/
+!/gramps52/listings/addons-en.json

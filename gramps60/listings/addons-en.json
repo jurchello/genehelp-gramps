@@ -1,0 +1,12 @@
+[
+  {
+    "n": "GeneHelp",
+    "i": "Genehelp",
+    "t": 10,
+    "d": "Send selected Gramps records to GeneHelp as an online request.",
+    "v": "0.10.0",
+    "g": "6.0",
+    "s": 2,
+    "z": "Genehelp.addon.tgz"
+  }
+]
