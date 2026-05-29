@@ -35,7 +35,7 @@ https://genehelp.online.
 If you are not sure whether the description will turn out well, you can create a test request.
 To do this, enable the **Create as a test genealogy request** option.
 
-![Create as a test genealogy request option](assets/img/test-option.jpg)
+<img src="assets/img/test-option.jpg" alt="Create as a test genealogy request option" width="680">
 
 _Test request option: enable this checkbox before submitting if you want to preview
 the result privately first._
