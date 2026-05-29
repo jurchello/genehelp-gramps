@@ -81,7 +81,7 @@ your user profile.
 """
         )
         % {
-            "base_url": base_url,
+            "base_url": f"{base_url}/go/gramps-open",
             "profile_url": f"{base_url}/profile?tab=integrations",
             "privacy_url": f"{base_url}/privacy-policy",
         }
