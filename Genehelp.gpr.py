@@ -25,7 +25,7 @@ register(
     expand=True,
     gramplet="GeneHelpGramplet",
     gramplet_title="GeneHelp",
-    gramps_target_version="6.0",
+    gramps_target_version="5.2",
     navtypes=[
         "Media",
         "Note",
